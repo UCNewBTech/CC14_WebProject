@@ -68,7 +68,7 @@ p {
 
 header {
   overflow: hidden;
-  background-color: #1f1f1f;
+  background-color: white;
 }
 
 header #searchBar{
@@ -115,14 +115,14 @@ header .wrap-content #buttons nav ul {
 header .wrap-content #buttons nav ul li #nav-dropdown{
   background-color: transparent;
   border: none;
-  color: whitesmoke;
+  color: grey;
   font-size: 18px;
 }
 header .wrap-content #buttons nav ul li #nav-dropdown:focus{
   outline: none;
 }
 header .wrap-content #buttons nav ul li #nav-dropdown option{
-  background-color: #1f1f1f ;
+  background-color: white ;
   outline: none;
 }
 
@@ -130,7 +130,7 @@ header .wrap-content #buttons nav ul li a {
   font-family: "Spartan";
   font-weight: 600;
   letter-spacing: 0.2em;
-  color: whitesmoke;
+  color: black;
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;

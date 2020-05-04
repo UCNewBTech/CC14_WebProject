@@ -57,6 +57,26 @@ body {
   padding: 0;
 }
 
+h1, h2, h3 {
+  font-family: "Spartan";
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: bolder;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.wrap-content {
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+
+
 header {
   overflow: hidden;
   background-color: white;
@@ -88,6 +108,7 @@ header #flexbox-container-1{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 header .wrap-content #buttons {
@@ -133,15 +154,153 @@ header .wrap-content #buttons nav ul li a {
 }
 
 header .wrap-content #buttons nav ul li a:hover {
-  background-color: whitesmoke;
-  color: black;
-  border-bottom: solid 4px white;
+  background-color: black;
+  color: white;
+  border-bottom: solid 4px black;
 }
 
-main #page-showcase{
-  background-image: url("../../assets/images/background/background_on_work.svg");
+.showcase{
+  padding: 10px;
+}
+#page-showcase{
+  background-color: grey;
+  background-image: url("../../assets/images/background/background_on_work.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
 
   color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+ #page-showcase #libName{
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 15%;
+} 
+#page-showcase #libName img{
+  height: auto;
+  min-width: 30%;
+  margin: 10px;
+}
+#page-showcase #libName h2{
+  margin: 10px;
+  font-size: 50px;
+  font-family: "Spartan";
+}
+
+main p {
+  font-family: "Spartan";
+}
+
+.staff-pic{
+  font-size: larger;
+  color: whitesmoke;
+  background-color: black;
+  width: 30%;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+.staff-pic h3{
+  padding: 10px;
+}
+.flexbox-container-2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flexbox-container-2 img{
+  margin: 10px;
+  border: solid 3px black;
+}
+
+#checkBooks{
+  text-align: center;
+}
+#checkBeverages{
+  text-align: center;
+}
+
+.href-hover-effect a{
+  font-family: "Spartan";
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  border-bottom: solid 4px transparent;
+  -webkit-transition: border-bottom-color .3s ease-in-out;
+  transition: border-bottom-color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+}
+
+.href-hover-effect a:hover{
+  background-color: black;
+  color: whitesmoke;
+  border-bottom: solid 4px black;
+}
+
+#updates p{
+  font-family: "Spartan";
+}
+#updates h4{
+  font-family: "Spartan";
+}
+
+#update-cont{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#update-cont #cont-1{
+  margin: 20px;
+  border: solid 4px black;
+}
+#update-cont #cont-2{
+  margin: 20px;
+  width: 50%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: "Spartan";
+}
+footer #flex-box-footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+footer .grid ul {
+  padding: 0px;
+}
+footer .grid ul li{
+  list-style-type: none;
+}
+
+footer .grid ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+footer #copyright{
+  text-align: center;
+  color: white;
+}
+/* .right {
+  float: right;
+}
+
+.left {
+  float: left;
+} */
+/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,qDAAqD;EACvE,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;CAC/B",
-    "sources": [
-        "tiltila.scss"
-    ],
-    "names": [],
-    "file": "tiltila.css"
-}

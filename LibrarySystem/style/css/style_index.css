@@ -1,0 +1,113 @@
+  .showcase{
+    padding: 0 10px;
+  }
+  
+  #page-showcase{
+    background-image: url("../../assets/images/background/background_on_work.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    color: white;
+  
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-basis: 0;
+    flex-grow: 1;
+    
+    overflow: hidden;
+  }
+  
+  #page-showcase #libName{
+    display: inline-flex;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    
+  }
+  
+  #page-showcase #libName #logo{
+    float: left;
+    width: auto;
+    height: auto;
+  }
+  
+  #page-showcase #libName #bcpl{
+    float: right;
+  }
+  
+  #page-showcase #libName h2{
+    margin: 10px;
+    font-size: 3.8vw;
+  }
+  
+  #page-showcase #libName h2 hr{
+    margin: 1px;
+    border: 2px solid yellow;
+  }
+  
+  #page-showcase #upcoming-act h1{
+    font-size: 1.8vw;
+  }
+  
+  .staff-pic{
+    font-size: larger;
+    color: whitesmoke;
+    background-color: black;
+    width: 30%;
+    letter-spacing: 12px;
+    text-align: center;
+  }
+  
+  .staff-pic h3{
+    padding: 10px;
+  }
+  .flexbox-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .flexbox-container-2 img{
+    margin: 10px;
+    border: solid 3px black;
+  }
+  
+  .href-hover-effect a{
+    font-family: "Spartan";
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-bottom: solid 4px transparent;
+    -webkit-transition: border-bottom-color .3s ease-in-out;
+    transition: border-bottom-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .href-hover-effect a:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: solid 4px black;
+  }
+  
+  #update-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #update-cont #cont-1{
+    margin: 20px;
+    border: solid 4px black;
+  }
+  #update-cont #cont-2{
+    margin: 20px;
+    width: 50%;
+  }
+  

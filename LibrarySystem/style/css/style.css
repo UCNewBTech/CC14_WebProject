@@ -57,25 +57,22 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  font-family: "Spartan";
-  margin: 0;
-  padding: 1em 0;
+h1{
+  font-family: 'Exo 2', sans-serif;
 }
 
-p {
-  font-family: "Poppins";
-  font-weight: bolder;
-  margin: 0;
-  padding: 1em 0;
+h2 {
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+a, p, h3{
+  font-family: 'Exo 2', sans-serif;
 }
 
 .wrap-content {
   padding: 10px;
   overflow: hidden;
- 
 }
-
 
 header {
   overflow: hidden;
@@ -139,7 +136,6 @@ header .wrap-content #buttons nav ul li #nav-dropdown option{
 }
 
 header .wrap-content #buttons nav ul li a {
-  font-family: "Spartan";
   font-weight: 600;
   letter-spacing: 0.2em;
   color: black;
@@ -162,9 +158,10 @@ header .wrap-content #buttons nav ul li a:hover {
 .showcase{
   padding: 10px;
 }
+
 #page-showcase{
   background-color: grey;
-  background-image: url("../../assets/images/background/background_on_work.png");
+  background-image: url("../../assets/images/background/background_on_work.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -174,25 +171,23 @@ header .wrap-content #buttons nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
  #page-showcase #libName{
   display: flex;
   align-items: center;
   padding-top: 5%;
   padding-bottom: 15%;
 } 
+
 #page-showcase #libName img{
   height: auto;
   min-width: 30%;
   margin: 10px;
 }
+
 #page-showcase #libName h2{
   margin: 10px;
   font-size: 50px;
-  font-family: "Spartan";
-}
-
-main p {
-  font-family: "Spartan";
 }
 
 .staff-pic{
@@ -217,13 +212,6 @@ main p {
   border: solid 3px black;
 }
 
-#checkBooks{
-  text-align: center;
-}
-#checkBeverages{
-  text-align: center;
-}
-
 .href-hover-effect a{
   font-family: "Spartan";
   font-weight: 600;
@@ -246,13 +234,6 @@ main p {
   border-bottom: solid 4px black;
 }
 
-#updates p{
-  font-family: "Spartan";
-}
-#updates h4{
-  font-family: "Spartan";
-}
-
 #update-cont{
   display: flex;
   justify-content: space-around;
@@ -273,6 +254,7 @@ footer{
   color: white;
   font-family: "Spartan";
 }
+
 footer #flex-box-footer{
   display: flex;
   text-align: center;
